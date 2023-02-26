@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+	margin: 0rem;
+	padding: 0rem;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.flexColumn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	background-image: url(../imagens/bg.png);
+	background-position: top center;
+	background-size:cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+	body article {
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(100, 100, 100, 0.3);
+	}
+
+	body article nav {
+		display: flex;
+		position: sticky;
+		justify-content: space-between;
+		align-items: center;
+		height: 6rem;
+		background-color: rgba(0, 0, 0, 0.255);
+	}
+
+	body article nav ul {
+		display: flex;
+		flex-direction: row;
+		list-style-type: none;
+	}
+
+	li {
+		display: flex;
+		margin: 0rem 5vh 0rem 5vh;
+	}
+
+		li a {
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+
+		.lupa{
+			padding: 0.5rem;
+			margin-right: 5rem;
+			height: 2.5rem;
+			width: 2.5rem;
+		}
+
+		.menu{
+			height: 4rem;
+			width: 4rem;
+		}
+
+		.assinar{
+			font-weight: 400;
+			font-size: 2.9rem;
+			line-height: 3.5rem;
+		}
+
+		.entrar{
+			font-weight: 400;
+			font-size: 2.9rem;
+			line-height: 3.5rem;
+		}
+
+
+	.logo {
+		position: absolute;
+		left: 42vw;
+		top: 0.5rem;
+	}
+
+
+	main {
+		color: #FFFFFF;
+	}
+	main h1 {
+		font-weight: 700;
+		font-size: 5.4rem;
+		line-height: 6.5rem;
+	}
+
+	main h2 {
+		font-weight: 400;
+		font-size: 2.9rem;
+		line-height: 3.5rem;
+	}
+
+	main label {
+		font-weight: 400;
+		font-size: 3.3rem;
+		line-height: 4rem;
+	}
+	.inputEmail{
+		width: 56.6rem;
+		height: 5rem;
+		background: rgba(127, 127, 127, 0.75);
+		border-radius: 2.5rem;
+		font-size: 2rem;
+		color:#FFFFFF
+	}
+
+	.inputSenha {
+		width: 56.6rem;
+		height: 5rem;
+		background: rgba(127, 127, 127, 0.75);
+		border-radius: 2.5rem;
+		font-size: 2rem;
+		color:#FFFFFF
+	}
+
+	.inputSubmit {
+		width: 21.4rem;
+		height: 5.5rem;
+		color: #121111;
+		font-weight: 400;
+		font-size: 33px;
+		line-height: 40px;
+
+		background: linear-gradient(90deg, #A18CD1 0%, #FBC2EB 100%);
+		border: 0.1rem solid #000000;
+		box-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+		border-radius: 2.5rem;
+	}
+	form, form h2, form label, form input{
+		margin: 1rem;
+	}
