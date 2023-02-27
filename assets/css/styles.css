@@ -29,12 +29,12 @@ body {
 	body article {
 		width: 100vw;
 		height: 100vh;
-		background-color: rgba(100, 100, 100, 0.3);
+		background-color: rgba(100, 100, 100, 0.1);
 	}
 
 	body article nav {
-		display: flex;
 		position: sticky;
+		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		height: 6rem;
@@ -45,6 +45,7 @@ body {
 		display: flex;
 		flex-direction: row;
 		list-style-type: none;
+		width: 31.7rem;
 	}
 
 	li {
@@ -81,65 +82,90 @@ body {
 			line-height: 3.5rem;
 		}
 
-
-	.logo {
-		position: absolute;
-		left: 42vw;
-		top: 0.5rem;
-	}
-
-
 	main {
 		color: #FFFFFF;
 	}
-	main h1 {
-		font-weight: 700;
-		font-size: 5.4rem;
-		line-height: 6.5rem;
-	}
+		main h1 {
+			font-weight: 700;
+			font-size: 5.4rem;
+			line-height: 6.5rem;
+		}
 
-	main h2 {
-		font-weight: 400;
-		font-size: 2.9rem;
-		line-height: 3.5rem;
-	}
+		main h2 {
+			font-weight: 400;
+			font-size: 2.9rem;
+			line-height: 3.5rem;
+		}
 
-	main label {
-		font-weight: 400;
-		font-size: 3.3rem;
-		line-height: 4rem;
-	}
-	.inputEmail{
-		width: 56.6rem;
-		height: 5rem;
-		background: rgba(127, 127, 127, 0.75);
-		border-radius: 2.5rem;
-		font-size: 2rem;
-		color:#FFFFFF
-	}
+		main label {
+			font-weight: 400;
+			font-size: 3.3rem;
+			line-height: 4rem;
+		}
+		.inputEmail{
+			width: 56.6rem;
+			height: 5rem;
+			background: rgba(127, 127, 127, 0.75);
+			border-radius: 2.5rem;
+			font-size: 2rem;
+			color:#FFFFFF
+		}
 
-	.inputSenha {
-		width: 56.6rem;
-		height: 5rem;
-		background: rgba(127, 127, 127, 0.75);
-		border-radius: 2.5rem;
-		font-size: 2rem;
-		color:#FFFFFF
-	}
+		.inputSenha {
+			width: 56.6rem;
+			height: 5rem;
+			background: rgba(127, 127, 127, 0.75);
+			border-radius: 2.5rem;
+			font-size: 2rem;
+			color:#FFFFFF
+		}
 
-	.inputSubmit {
-		width: 21.4rem;
-		height: 5.5rem;
-		color: #121111;
-		font-weight: 400;
-		font-size: 33px;
-		line-height: 40px;
+		.inputSubmit {
+			width: 21.4rem;
+			height: 5.5rem;
+			color: #121111;
+			font-weight: 400;
+			font-size: 3.3rem;
+			line-height: 4rem;
 
-		background: linear-gradient(90deg, #A18CD1 0%, #FBC2EB 100%);
-		border: 0.1rem solid #000000;
-		box-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-		border-radius: 2.5rem;
-	}
-	form, form h2, form label, form input{
-		margin: 1rem;
-	}
+			background: linear-gradient(90deg, #A18CD1 0%, #FBC2EB 100%);
+			border: 0.1rem solid #000000;
+			box-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+			border-radius: 2.5rem;
+		}
+		
+		main form input{
+			color: #FFFFFF;
+			padding-left: 1rem;
+		}
+
+		main form input::placeholder{
+			color: #FFFFFF;
+		}
+
+		form, form h2, form label, form input{
+			margin: 1rem;
+		}
+
+		main button {
+			width: 404.5px;
+			height: 55px;
+			color: #121111;
+			font-weight: 400;
+			font-size: 3.3rem;
+			line-height: 4rem;
+
+			background: linear-gradient(90deg, #A18CD1 0%, #FBC2EB 100%);
+			border: 0.1rem solid #000000;
+			box-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+			border-radius: 2.5rem;
+		}
+
+		main a {
+			text-decoration: none;
+			color: #121111;
+		}
+
+		main .rodape {
+			margin: 1rem;
+		}
