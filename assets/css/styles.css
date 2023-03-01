@@ -137,6 +137,7 @@ body {
 		main form input{
 			color: #FFFFFF;
 			padding-left: 1rem;
+			border: 0rem;
 		}
 
 		main form input::placeholder{
